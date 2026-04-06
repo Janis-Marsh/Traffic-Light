@@ -1,0 +1,66 @@
+body {
+font-family: Arial, sans-serif;
+background: #f3f4f6;
+display: flex;
+justify-content: center;
+padding-top: 40px;
+}
+
+.app {
+text-align: center;
+}
+
+.traffic-box {
+width: 120px;
+background: #222;
+padding: 20px;
+border-radius: 16px;
+margin: 20px auto;
+}
+
+.light {
+width: 70px;
+height: 70px;
+border-radius: 50%;
+background: #555;
+margin: 15px auto;
+opacity: 0.3;
+}
+
+.active {
+opacity: 1;
+box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
+}
+
+.red {
+background: red;
+}
+
+.yellow {
+background: gold;
+}
+
+.green {
+background: limegreen;
+}
+
+button {
+padding: 10px 16px;
+margin: 6px;
+border: none;
+border-radius: 8px;
+background: #2563eb;
+color: white;
+cursor: pointer;
+font-size: 14px;
+}
+
+button:hover {
+background: #1d4ed8;
+}
+
+#status {
+margin-top: 10px;
+font-size: 18px;
+color: #333;
+}
